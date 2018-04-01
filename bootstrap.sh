@@ -2,7 +2,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files=".chunkwmrc"        # list of files/folders to symlink in homedir
+files=".chunkwmrc .khdrc"        # list of files/folders to symlink in homedir
 
 ##########
 
