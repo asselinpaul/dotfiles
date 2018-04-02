@@ -5,3 +5,7 @@ make the script executable:
 
 run it:
 `./bootstrap.sh`
+
+Tiling window manager: [chunkwm](https://github.com/koekeishiya/chunkwm)
+
+Hotkey daemon: [khd](https://github.com/koekeishiya/khd)
