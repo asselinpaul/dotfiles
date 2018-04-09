@@ -77,5 +77,6 @@ chunkc core::load ffm.so
 chunkc tiling::rule --owner iTerm2 --name "^zsh" --state float
 chunkc tiling::rule --owner Finder --name Copy --state float
 chunkc tiling::rule --owner Dictionary --state float
+chunkc tiling::rule --owner Stickies --state float
 chunkc tiling::rule --owner Fantastical --state float
 chunkc tiling::rule --owner \"App Store\" --state float
