@@ -55,3 +55,6 @@ function gi() { curl http://www.gitignore.io/api/$@ ;}
 export GOPATH=$HOME/go
 # export PATH=$PATH:$GOPATH/bin[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 export PATH="/usr/local/opt/ncurses/bin:$PATH"
+
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
