@@ -10,7 +10,7 @@ Package manager: [brew](https://brew.sh/)
 
 Tiling window manager: [chunkwm](https://github.com/koekeishiya/chunkwm)
 
-Hotkey daemon: [khd](https://github.com/koekeishiya/khd)
+Hotkey daemon: [skhd](https://github.com/koekeishiya/skhd)
 
 zsh configuration: [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 -> consider using [fish shell](https://fishshell.com/)

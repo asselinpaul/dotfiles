@@ -8,7 +8,7 @@ filetype off
 
 " Turn on syntax highlighting
 syntax on
-color dracula
+" color dracula
 
 " For plugins to load correctly
 filetype plugin indent on
