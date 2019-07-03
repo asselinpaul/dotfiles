@@ -82,6 +82,6 @@ chunkc tiling::rule --owner \"QuickTime Player\" --state float
 chunkc tiling::rule --owner OpenConnect-GUI --state float
 chunkc tiling::rule --owner Fantastical --state float
 chunkc tiling::rule --owner \"App Store\" --state float
-chunkc tiling::rule --owner \"Sublime Merge\" --state float
+#chunkc tiling::rule --owner \"Sublime Merge\" --state float
 chunkc tiling::rule --owner \"Firefox Developer Edition\" --name
 ".*\(invalid\)$" --state float
