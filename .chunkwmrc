@@ -74,7 +74,7 @@ chunkc core::load ffm.so
 # NOTE: shell commands require escaped quotes
 #       to pass value containing a whitespace.
 #
-chunkc tiling::rule --owner iTerm2 --name "^hotkey" --state float
+chunkc tiling::rule --owner iTerm2 --name "^iterm_dropdown" --state float
 chunkc tiling::rule --owner Finder --name Copy --state float
 chunkc tiling::rule --owner Dictionary --state float
 chunkc tiling::rule --owner Stickies --state float
@@ -83,5 +83,4 @@ chunkc tiling::rule --owner OpenConnect-GUI --state float
 chunkc tiling::rule --owner Fantastical --state float
 chunkc tiling::rule --owner \"App Store\" --state float
 #chunkc tiling::rule --owner \"Sublime Merge\" --state float
-chunkc tiling::rule --owner \"Firefox Developer Edition\" --name
-".*\(invalid\)$" --state float
+#chunkc tiling::rule  --name ".*\(invalid\)$" --state bsp
