@@ -8,9 +8,8 @@ run it:
 
 Package manager: [brew](https://brew.sh/)
 
-Tiling window manager: [chunkwm](https://github.com/koekeishiya/chunkwm)
+Tiling window manager: [yabai](https://github.com/koekeishiya/yabai)
 
 Hotkey daemon: [skhd](https://github.com/koekeishiya/skhd)
 
-zsh configuration: [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
--> consider using [fish shell](https://fishshell.com/)
+Shell: [fish shell](https://fishshell.com/)
