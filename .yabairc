@@ -45,3 +45,8 @@ yabai -m config window_gap                   5
 
 echo "yabai configuration loaded.."
 
+# float system preferences
+yabai -m rule --add app="^System Preferences$" manage=off
+yabai -m rule --add title="^Picture-in-Picture$" manage=off
+# show digital colour meter topmost and on all spaces
+# yabai -m rule --add app="^Digital Colou?r Meter$" sticky=on
