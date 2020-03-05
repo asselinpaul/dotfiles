@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # bar settings
-yabai -m config status_bar                   on
+yabai -m config status_bar                   off
 yabai -m config status_bar_text_font         "SF Mono:Regular:11.0"
 yabai -m config status_bar_icon_font         "SF Mono:Regular:12.0"
 yabai -m config status_bar_background_color  0xff202020
@@ -39,14 +39,17 @@ yabai -m config mouse_action2                resize
 yabai -m config layout                       bsp
 yabai -m config top_padding                  0
 yabai -m config bottom_padding               0
-yabai -m config left_padding                 5
-yabai -m config right_padding                5
+yabai -m config left_padding                 0
+yabai -m config right_padding                0
 yabai -m config window_gap                   5
 
 echo "yabai configuration loaded.."
 
 # float system preferences
-yabai -m rule --add app="^System Preferences$" manage=off
+# yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add title="^Picture-in-Picture$" manage=off
 # show digital colour meter topmost and on all spaces
-# yabai -m rule --add app="^Digital Colou?r Meter$" sticky=on
+yabai -m rule --add app="^Stickies$" floating=on
+yabai -m rule --add app="^System Preferences$" floating=on
+yabai -m rule --add app="^Stickies$" sticky=on
+yabai -m rule --add app="^System Preferences$" sticky=on
